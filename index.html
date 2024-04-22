@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Company</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .header-btn {
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Body Styles */
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
+            background-color: #f1f1f1;
+        }
+
+        .product-image {
+            width: 300px;
+        }
+
+        .product-description {
+            width: 400px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Form Styles */
+        .form-container {
+            padding: 50px;
+            background-color: #f9f9f9;
+        }
+
+        .form-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-submit {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <button class="header-btn">Home</button>
+        <button class="header-btn">Product</button>
+    </header>
+
+    <!-- Body -->
+    <div class="product-container">
+        <img class="product-image" src="apple-products.jpg" alt="Apple Products">
+        <div class="product-description">
+            <h2>Apple Products</h2>
+            <p>Discover a world of innovation with Apple's latest products. From iPhones and iPads to MacBooks and Apple Watches, we have everything you need to stay connected and productive.</p>
+            <p>Explore our range of cutting-edge devices and experience the seamless integration of hardware and software that Apple is known for.</p>
+            <p>Whether you're a tech enthusiast, a creative professional, or a casual user, Apple products offer the perfect blend of style, performance, and reliability.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Amazon Company. All rights reserved.
+    </footer>
+
+    <!-- Form -->
+    <div class="form-container">
+        <h2 class="form-header">Contact Us</h2>
+        <form>
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-input" type="text" id="name" name="name" required>
+
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-input" type="email" id="email" name="email" required>
+
+            <label class="form-label" for="message">Message:</label>
+            <textarea class="form-input" id="message" name="message" rows="4" required></textarea>
+
+            <button class="form-submit" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Add your custom JavaScript code here
+    </script>
+</body>
+</html>
